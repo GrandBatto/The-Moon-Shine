@@ -383,7 +383,7 @@ operative_add_nationalities_thestral = {
 		}
 	}
 	add_to_array = {
-		cultures = 24
+		cultures = 40
 	}
 }
 operative_add_nationalities_horse = {

@@ -408,7 +408,10 @@ uses_buffalo_portraits = {
 }
 
 uses_dragon_portraits = {
-	always = no
+	OR = {
+		original_tag = DRG
+		original_tag = IDT
+	}
 }
 
 uses_hippogriff_portraits = {
@@ -830,6 +833,7 @@ is_country_main_culture_north_zebrican_zebra = {
 
 is_country_main_culture_north_zebrican_pony = {
 	OR = {
+		original_tag = BAT
 		original_tag = MDL
 		original_tag = MGY
 		original_tag = TBK
